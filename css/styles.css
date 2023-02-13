@@ -1,0 +1,142 @@
+body {
+    background-color: hsl(218, 22%, 67%);
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    line-height: 2.5;
+    width: 250px;
+}
+
+button:hover {
+    background-color: hsl(71, 90%, 54%);
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    margin-top: 0;
+}
+
+h2 {
+    color: hsl(71, 73%, 54%);
+}
+
+h3 {
+    margin-top: 0;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    opacity: 70%;
+    line-height: 1.5;
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.grid-container {
+    display: grid;
+    margin: 5% auto 10%;
+    width: 700px;
+    height: 400px;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-item {
+    padding: 50px;
+}
+
+.grid-item-join-community {
+    background-color: white;
+    color:hsl(218, 22%, 67%);
+    border-radius: 10px 10px 0 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid-item-monthly-sub {
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 10px;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.grid-item-why-us {
+    background-color: hsl(178, 62%, 53%);
+    border-radius: 0 0 10px 0;
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.per {
+    opacity: 70%;
+}
+
+@media (max-width: 700px) {
+
+    p {
+        line-height: 2;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .grid-container {
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        height: auto;
+        width: 350px;
+
+    }
+
+    .grid-item {
+        padding: 40px 25px 40px;
+    }
+    .grid-item-join-community {
+        border-radius: 10px 10px 0 0;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .grid-item-monthly-sub {
+        border-radius: 0px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .grid-item-why-us {
+        border-radius: 0 0 10px 10px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+
+
+
