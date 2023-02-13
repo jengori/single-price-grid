@@ -15,5 +15,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
+- Solution URL: https://github.com/jengori/single-price-grid
 - Live Site URL:
